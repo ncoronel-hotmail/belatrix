@@ -1,0 +1,2 @@
+ene 23, 2020 8:30:23 AM loggers.FileLogger log
+ADVERTENCIA: Database test case Warning

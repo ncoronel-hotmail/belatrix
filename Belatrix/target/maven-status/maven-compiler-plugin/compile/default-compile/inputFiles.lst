@@ -1,0 +1,11 @@
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/loggers/DatabaseLogger.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/interfaces/ILogType.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/loggers/ConsoleLogger.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/db/DbConnection.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/config/Configuration.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/test/TestJobLogger.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/constants/LogConstant.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/loggers/FileLogger.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/jobs/JobLogger.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/entities/AppLog.java
+/home/ncoronel@cx.ar/Escritorio/test/Belatrix/src/dao/AppLogDAO.java

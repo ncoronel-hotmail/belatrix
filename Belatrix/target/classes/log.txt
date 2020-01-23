@@ -1,0 +1,10 @@
+ene 23, 2020 8:30:23 AM loggers.FileLogger log
+ADVERTENCIA: Database test case Warning
+ene 23, 2020 8:35:06 AM loggers.FileLogger log
+INFORMACIÓN: Test Message
+ene 23, 2020 8:35:07 AM loggers.FileLogger log
+GRAVE: Test Error File
+ene 23, 2020 8:35:07 AM loggers.FileLogger log
+ADVERTENCIA: Database test case Warning
+ene 23, 2020 8:35:07 AM loggers.FileLogger log
+INFORMACIÓN: Test Message Console
