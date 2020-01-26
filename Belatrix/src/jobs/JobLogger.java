@@ -103,8 +103,8 @@ public class JobLogger {
 		
 		ILogType fileLogger = new FileLogger(Configuration.getLogFilePath());
 		
-		methods.put(LogConstant.LOG_FILE, new ConsoleLogger());
-		methods.put(LogConstant.LOG_CONSOLE, fileLogger);
+		methods.put(LogConstant.LOG_FILE,fileLogger );
+		methods.put(LogConstant.LOG_CONSOLE, new ConsoleLogger());
 		methods.put(LogConstant.LOG_DATABASE, new DatabaseLogger());
 		
 		return methods;
@@ -137,7 +137,12 @@ public class JobLogger {
 	 * @param typeSettings: Set con los tipos de log que se quieren utilizar.
 	 */
 	public static void setTypeLogSettings(Set<Integer> typeLogSettings) {
-		JobLogger.typeLogSettings = typeLogSettings;
+		
+			currentLogTypes = new LinkedHashSet<>(); 
+		
+			JobLogger.typeLogSettings = typeLogSettings;
+
+		
 		
 		//Se llena el set de los tipos de log que se van a utilizar con los que se especificaron por parametro
 		if (JobLogger.typeLogSettings != null && JobLogger.typeLogSettings.size() > 0) {
