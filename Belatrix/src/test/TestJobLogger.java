@@ -79,8 +79,8 @@ class TestJobLogger {
 	//Test para verificar log en base de datos (pasa si se genero la primary key, verificar tambien en base)
 	@Test
 	void testDatabaseLog() throws Exception {
-		setSpecificParams(LogConstant.MSG_WARNING, LogConstant.MSG_WARNING);
-		
+		setSpecificParams(LogConstant.MSG_WARNING, LogConstant.LOG_DATABASE);
+
 		JobLogger.logWarning("Database test case Warning");
 		assertEquals(true, JobLogger.getDatabaseLoggerStatus());
 	}
